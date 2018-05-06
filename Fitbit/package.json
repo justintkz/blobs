@@ -1,0 +1,23 @@
+{
+  "fitbit": {
+    "appUUID": "4709d863-4dff-44e5-b6fd-cea425acc9be",
+    "appType": "clockface",
+    "appDisplayName": "blobss",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "blobss"
+      }
+    }
+  }
+}

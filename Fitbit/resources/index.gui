@@ -1,0 +1,130 @@
+<svg class="background">
+  <image href="images/home_background.png" load="sync" />
+  <text id="myLabel"></text>
+  
+  <svg id="pillow">
+    <image href="images/pillow.png" load="sync" />
+  </svg>
+  
+  <svg id="sprite">
+    <image id="fluffy" href="images/jump-5.png" load="sync" pointer-events="visible" />
+  </svg>
+  
+  <svg id="heart_rate">
+    <image id="heart_img" href="images/heart_rate.png" load="sync"/>
+    <text id="heart_rate_value">60 bpm</text>
+  </svg>
+  
+  <svg id="footsteps_count">
+    <image id="footstep_img" href="images/Footsteps.png" load="sync"/>
+    <text id="footstep_value">1300</text>
+  </svg>
+  
+  <svg id="bsReminder" pointer-events="visible">
+    <image id="bsImg" href="images/bloodsugar.png" load="sync">
+      <animate attributeName="opacity" begin="load" from="1" to="0" dur="1" final="restore" repeatCount="1000" />
+    </image>
+  </svg>
+  
+  <!-- Blood Sugar Level -->
+  <svg viewport-fill="fb-cyan" id="bloodsugar" display="none">
+    <image href="images/home_background.png" load="sync" />
+    <svg width="75%" height="100%">
+      <use x="0" y="0"  width="33%" height="100%" id="pos0" href="#tumblerview">
+        <use id="item0" href="#tumbler-item" class="item">
+          <text id="value">0</text>
+        </use>
+        <use id="item1" href="#tumbler-item" class="item">
+          <text id="value">1</text>
+        </use>
+        <use id="item2" href="#tumbler-item" class="item">
+          <text id="value">2</text>
+        </use>
+        <use id="item3" href="#tumbler-item" class="item">
+          <text id="value">3</text>
+        </use>
+        <use id="item4" href="#tumbler-item" class="item">
+          <text id="value">4</text>
+        </use>
+        <use id="item5" href="#tumbler-item" class="item">
+          <text id="value">5</text>
+        </use>
+      </use>
+      <use x="33%" y="0"  width="34%" height="100%" id="pos1" href="#tumblerview">
+        <use id="item0" href="#tumbler-item" class="item">
+          <text id="value">0</text>
+        </use>
+        <use id="item1" href="#tumbler-item" class="item">
+          <text id="value">1</text>
+        </use>
+        <use id="item2" href="#tumbler-item" class="item">
+          <text id="value">2</text>
+        </use>
+        <use id="item3" href="#tumbler-item" class="item">
+          <text id="value">3</text>
+        </use>
+        <use id="item4" href="#tumbler-item" class="item">
+          <text id="value">4</text>
+        </use>
+        <use id="item5" href="#tumbler-item" class="item">
+          <text id="value">5</text>
+        </use>
+        <use id="item6" href="#tumbler-item" class="item">
+          <text id="value">6</text>
+        </use>
+        <use id="item7" href="#tumbler-item" class="item">
+          <text id="value">7</text>
+        </use>
+        <use id="item8" href="#tumbler-item" class="item">
+          <text id="value">8</text>
+        </use>
+        <use id="item9" href="#tumbler-item" class="item">
+          <text id="value">9</text>
+        </use>
+      </use>
+      <use x="67%" y="0"  width="33%" height="100%" id="pos2" href="#tumblerview">
+        <use id="item0" href="#tumbler-item" class="item">
+          <text id="value">0</text>
+        </use>
+        <use id="item1" href="#tumbler-item" class="item">
+          <text id="value">1</text>
+        </use>
+        <use id="item2" href="#tumbler-item" class="item">
+          <text id="value">2</text>
+        </use>
+        <use id="item3" href="#tumbler-item" class="item">
+          <text id="value">3</text>
+        </use>
+        <use id="item4" href="#tumbler-item" class="item">
+          <text id="value">4</text>
+        </use>
+        <use id="item5" href="#tumbler-item" class="item">
+          <text id="value">5</text>
+        </use>
+        <use id="item6" href="#tumbler-item" class="item">
+          <text id="value">6</text>
+        </use>
+        <use id="item7" href="#tumbler-item" class="item">
+          <text id="value">7</text>
+        </use>
+        <use id="item8" href="#tumbler-item" class="item">
+          <text id="value">8</text>
+        </use>
+        <use id="item9" href="#tumbler-item" class="item">
+          <text id="value">9</text>
+        </use>
+      </use>
+    </svg>
+    <text x="75%" y="50%-55" 
+          font-family="System-Regular" fill="white"
+          font-size="30" font-weight="bold">mg/dL</text>
+    
+    <use id="btn-br" href="#combo-button-lower-right" fill="fb-peach">
+      <set href="combo-button-icon" attributeName="href" to="images/btn_check.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="images/btn_check_p.png"/>
+      <set href="combo-button-stroke" attributeName="display" to="inline"/>
+    </use>
+  </svg>
+</svg>
+
+
